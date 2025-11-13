@@ -30,7 +30,7 @@ export default function Hero() {
         >
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
             All Payments in One App:{" "}
-            <span className="text-sky-900 drop-shadow-md">CELLPE</span>
+            <span className="text-sky-900 drop-shadow-md">CellPe</span>
           </h1>
           <p className="text-lg text-gray-700 mb-6">
             Recharge, book, and pay bills instantly with India’s most convenient & secure payment app.

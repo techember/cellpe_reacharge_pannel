@@ -5,22 +5,22 @@ export default function RefundPolicy() {
         <h1 className="text-3xl font-bold mb-6">Refund Policy</h1>
 
         <p>
-          Thank you for choosing <strong>CELLPE</strong>, a premier mobile recharge and utility ments 
+          Thank you for choosing <strong>CellPe</strong>, a premier mobile recharge and utility ments 
           platform. We are committed to delivering exceptional service and ensuring customer satisfaction.
           This refund policy outlines the terms and conditions regarding refunds for mobile recharge transactions made 
-          through the <strong>CELLPE</strong> platform.
+          through the <strong>CellPe</strong> platform.
         </p>
 
         <section id="eligibility">
           <h2 className="text-lg font-bold text-gray-700 mt-8 mb-4">Eligibility for Refunds</h2>
-          <p className="mt-4">1.1 CELLPE will provide refunds only in the following case:</p>
+          <p className="mt-4">1.1 CellPe will provide refunds only in the following case:</p>
           <p className="mt-2"> a) If a mobile recharge, utility ment, or other transaction fails due to technical issues or errors on our platform.</p>
           <p className="mt-2">1.2 Refund requests for failed transactions must be reported by the user within 48 hours from the date of the failed transaction.</p>
         </section>
 
         <section id="request">
           <h2 className="text-lg font-bold text-gray-700 mt-8 mb-4">Refund Request Process</h2>
-          <p className="mb-4">2.1 To request a refund for a failed transaction, the user must contact <strong>CELLPE </strong> 
+          <p className="mb-4">2.1 To request a refund for a failed transaction, the user must contact <strong>CellPe </strong> 
             customer support within 48 hours from the date of the failed transaction.
           </p>
           <p className="mb-2">2.2 The refund request must include the following details:</p>
@@ -37,28 +37,28 @@ export default function RefundPolicy() {
 
         <section id="processing">
           <h2 className="text-lg font-bold text-gray-700 mt-8 mb-4">Refund Processing</h2>
-          <p className="mb-4">3.1 CELLPE will review the refund request and the details provided by the user within 7 working days of receiving it.</p>
-          <p className="mb-4">3.2 If the refund request is approved, the refund amount will be credited to the user’s CELLPE wallet within 3-5 working days.</p>
-          <p className="mb-4">3.3 The refunded amount can be used for future recharges or other transactions on the CELLPE platform.</p>
+          <p className="mb-4">3.1 CellPe will review the refund request and the details provided by the user within 7 working days of receiving it.</p>
+          <p className="mb-4">3.2 If the refund request is approved, the refund amount will be credited to the user’s CellPe wallet within 3-5 working days.</p>
+          <p className="mb-4">3.3 The refunded amount can be used for future recharges or other transactions on the CellPe platform.</p>
         </section>
 
         <section id="exceptions">
           <h2 className="text-lg font-bold text-gray-700 mt-8 mb-4">Refund Exceptions</h2>
-          <p className="mb-4">4.1 CELLPE will not provide refunds for transactions that fail due to errors in user inputs, including incorrect mobile numbers or other user-related errors.</p>
-          <p className="mb-4">4.2 CELLPE will not entertain refund requests made after the specified 48 hours timeframe for failed transactions.</p>
-          <p className="mb-4">4.3 The customer is not allowed to withdraw the amount added to the CELLPE wallet. The same can only be utilized for Utility ments and Recharges on the Platform.</p>
+          <p className="mb-4">4.1 CellPe will not provide refunds for transactions that fail due to errors in user inputs, including incorrect mobile numbers or other user-related errors.</p>
+          <p className="mb-4">4.2 CellPe will not entertain refund requests made after the specified 48 hours timeframe for failed transactions.</p>
+          <p className="mb-4">4.3 The customer is not allowed to withdraw the amount added to the CellPe wallet. The same can only be utilized for Utility ments and Recharges on the Platform.</p>
         </section>
 
         <section id="changes">
           <h2 className="text-lg font-bold text-gray-700 mt-8 mb-4">Changes to the Refund Policy</h2>
-          <p className="mb-4">5.1 CELLPE reserves the right to modify or update this refund policy at any time. Any changes to the policy will be effective immediately upon posting on our website.</p>
+          <p className="mb-4">5.1 CellPe reserves the right to modify or update this refund policy at any time. Any changes to the policy will be effective immediately upon posting on our website.</p>
           <p className="mb-4">5.2 Users are encouraged to review this refund policy periodically to stay informed about our refund practices.</p>
         </section>
 
         <p>
           If you have any questions or concerns regarding our refund policy, please contact our customer support team at{" "}
-          <a href="mailto:cellpe@gmail.com" className="text-teal-600 hover:underline">
-            Cellpe@gmail.com
+          <a href="mailto:offcialcellpe@gmail.com" className="text-teal-600 hover:underline">
+            offcialcellpe@gmail.com
           </a>.
         </p>
       </main>

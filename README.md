@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# CELLPE
+# CellPe
 =======
 # React + Vite
 

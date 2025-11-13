@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p className="text-gray-700 leading-relaxed">
-          When you visit or buy something from <strong>CELLPE</strong>, this Privacy Policy applies
+          When you visit or buy something from <strong>CellPe</strong>, this Privacy Policy applies
           and explains how your personal data is collected, used, and shared.
         </p>
 
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
             </h2>
             <p className="text-gray-700">
               We automatically gather certain information about your device when you
-              access CELLPE, including your browser, IP address, time zone, and cookies.
+              access CellPe, including your browser, IP address, time zone, and cookies.
               We also track pages you view, search keywords, and interactions. This is
               called <strong>Device Information</strong>.
             </p>
@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
             </h2>
             <p className="text-gray-700">
               We may update this policy to reflect changes in practices or regulations.
-              Contact us at <strong>cellpe@gmail.com</strong> for questions.
+              Contact us at <strong>officialcellpe@gmail.com</strong> for questions.
             </p>
           </div>
         </div>

@@ -59,12 +59,12 @@ export default function Contact() {
             {
               icon: Mail,
               title: "Email",
-              desc: "mlmzone7@gmail.com",
+              desc: "Officialcellpe@gmial.com",
             },
             {
               icon: Phone,
               title: "Phone",
-              desc: "+91 95995 58707",
+              desc: "+91 7042924765",
             },
           ].map((item, idx) => {
             const Icon = item.icon;

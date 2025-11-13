@@ -41,7 +41,7 @@ export default function About() {
             <span className="bg-gradient-to-br from-[#8FCF9C] via-[#73C6D6] to-[#2196F3] bg-clip-text text-transparent">CELLPE</span>
           </h1>
           <p className="text-gray-900 text-lg md:text-xl leading-relaxed">
-            CELLPE is your all-in-one digital ment app for{" "}
+            CellPe is your all-in-one digital ment app for{" "}
             <strong>mobile recharge, bill ments, travel bookings, and city services</strong>.
             One app, <strong>all solutions</strong> — fast, secure, and rewarding.
           </p>
@@ -59,7 +59,7 @@ export default function About() {
         >
           <img
             src="/images/phone-mock.png"
-            alt="CELLPE App Preview"
+            alt="CellPe App Preview"
             className="w-72 md:w-96 lg:w-[400px] drop-shadow-2xl rounded-3xl"
           />
           {/* Subtle glow behind phone */}
@@ -70,10 +70,10 @@ export default function About() {
       {/* Features / Why CELL PE */}
       <div className="max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-teal-950 mb-6">
-          Why Choose CELLPE?
+          Why Choose CellPe?
         </h2>
         <p className="text-gray-900 text-center max-w-3xl mx-auto mb-12 text-lg">
-          CELLPE combines <strong>all essential services</strong> in a single, smooth app.
+          CellPe combines <strong>all essential services</strong> in a single, smooth app.
           With <strong>bank-grade security, instant ments, and rewards</strong>, you can
           manage everything without switching apps.
         </p>
@@ -114,7 +114,7 @@ export default function About() {
         <div className="max-w-5xl mx-auto px-6 text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Vision</h2>
           <p className="text-lg md:text-xl leading-relaxed">
-            At CELLPE, we believe digital ments should be{" "}
+            At CellPe, we believe digital ments should be{" "}
             <strong>simple, reliable, and rewarding</strong>. Our vision is to empower every
             user with a <strong>single app for all essential ments</strong>, making finance
             smarter and accessible for everyone.

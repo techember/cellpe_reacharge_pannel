@@ -1,7 +1,7 @@
 import { Gift, Headphones, Shield, Zap } from "lucide-react";
 
 const features = [
-  { icon: Shield, title: "Secure ments", desc: "Your transactions are protected with bank-grade encryption." },
+  { icon: Shield, title: "Secure payments", desc: "Your transactions are protected with bank-grade encryption." },
   { icon: Zap, title: "Lightning Fast", desc: "Instant recharges, bookings, and bill ments in seconds." },
   { icon: Headphones, title: "24/7 Support", desc: "Always here to help, whenever you need assistance." },
   { icon: Gift, title: "Exclusive Rewards", desc: "Earn cashback, discounts, and exciting offers on every ment." },
@@ -11,7 +11,7 @@ export default function Features() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-extrabold mb-12 text-gray-900">Why Choose CELLPE?</h2>
+        <h2 className="text-4xl font-extrabold mb-12 text-gray-900">Why Choose CellPe?</h2>
 
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
           {features.map((f, idx) => (

@@ -22,12 +22,7 @@ export default function Services() {
             description="Instant DTH recharges with flexible plans and exciting offers."
           />
 
-          <ServiceCard
-            Icon={CreditCard}
-            title="BBPS Bill Payments"
-            description="Pay electricity, water, gas, and broadband bills effortlessly in one place."
-          />
-
+        
           <ServiceCard
             Icon={Plane}
             title="Travel Booking"

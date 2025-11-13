@@ -69,11 +69,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <Mail className="w-5 h-5 text-[#0056D2]" />
-                <span>cellpe@gmail.com</span>
+                <span>offcialcellpe@gmail.com</span>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-2">
                 <Phone className="w-5 h-5 text-[#0056D2]" />
-                <span>+91 95995 58707</span>
+                <span>+91 7042924765</span>
               </div>
             </div>
           </div>
