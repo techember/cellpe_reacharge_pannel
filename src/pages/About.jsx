@@ -16,7 +16,7 @@ export default function About() {
     {
       icon: Users,
       title: "Made for Everyone",
-      desc: "From students to families, we simplify ments for all.",
+      desc: "From students to families, we simplify payments for all.",
     },
     {
       icon: Award,
