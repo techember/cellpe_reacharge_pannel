@@ -6,7 +6,11 @@ export default function CTA() {
           Download CellPe Today
         </h2>
         <p className="mb-8 text-lg text-black">
+<<<<<<< HEAD
           Experience fast, secure, and rewarding payments. Join millions of users already using CellPe.
+=======
+          Experience fast, secure, and rewarding ments. Join millions of users already using CellPe.
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
         </p>
         <div className="space-x-4">
           <button className="px-6 py-3 rounded-full bg-teal-950 text-white font-bold shadow-lg hover:bg-teal-800 transition duration-300">

@@ -5,7 +5,11 @@ export default function RefundPolicy() {
         <h1 className="text-3xl font-bold mb-6">Refund Policy</h1>
 
         <p>
+<<<<<<< HEAD
           Thank you for choosing <strong>CellPe</strong>, a premier mobile recharge and utility payments 
+=======
+          Thank you for choosing <strong>CellPe</strong>, a premier mobile recharge and utility ments 
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
           platform. We are committed to delivering exceptional service and ensuring customer satisfaction.
           This refund policy outlines the terms and conditions regarding refunds for mobile recharge transactions made 
           through the <strong>CellPe</strong> platform.
@@ -14,7 +18,11 @@ export default function RefundPolicy() {
         <section id="eligibility">
           <h2 className="text-lg font-bold text-gray-700 mt-8 mb-4">Eligibility for Refunds</h2>
           <p className="mt-4">1.1 CellPe will provide refunds only in the following case:</p>
+<<<<<<< HEAD
           <p className="mt-2"> a) If a mobile recharge, utility payment, or other transaction fails due to technical issues or errors on our platform.</p>
+=======
+          <p className="mt-2"> a) If a mobile recharge, utility ment, or other transaction fails due to technical issues or errors on our platform.</p>
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
           <p className="mt-2">1.2 Refund requests for failed transactions must be reported by the user within 48 hours from the date of the failed transaction.</p>
         </section>
 
@@ -27,7 +35,11 @@ export default function RefundPolicy() {
           <ul className="list-disc list-inside mb-6">
             <li>Transaction ID</li>
             <li>Date and time of the transaction</li>
+<<<<<<< HEAD
             <li>Mobile number or account details used for the recharge/payment</li>
+=======
+            <li>Mobile number or account details used for the recharge/ment</li>
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
             <li>A brief description of the issue encountered</li>
           </ul>
           <p className="mb-4">2.3 Refund requests can be submitted by contacting our customer support
@@ -46,7 +58,11 @@ export default function RefundPolicy() {
           <h2 className="text-lg font-bold text-gray-700 mt-8 mb-4">Refund Exceptions</h2>
           <p className="mb-4">4.1 CellPe will not provide refunds for transactions that fail due to errors in user inputs, including incorrect mobile numbers or other user-related errors.</p>
           <p className="mb-4">4.2 CellPe will not entertain refund requests made after the specified 48 hours timeframe for failed transactions.</p>
+<<<<<<< HEAD
           <p className="mb-4">4.3 The customer is not allowed to withdraw the amount added to the CellPe wallet. The same can only be utilized for Utility payments and Recharges on the Platform.</p>
+=======
+          <p className="mb-4">4.3 The customer is not allowed to withdraw the amount added to the CellPe wallet. The same can only be utilized for Utility ments and Recharges on the Platform.</p>
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
         </section>
 
         <section id="changes">

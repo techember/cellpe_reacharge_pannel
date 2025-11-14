@@ -5,7 +5,11 @@ const faqs = [
   {
     question: "What is CellPe?",
     answer:
+<<<<<<< HEAD
       "CellPe is a modern digital ment app that allows you to recharge, book travel, and access city services — all in one secure platform.",
+=======
+      "CellPe is a modern digital ment app that allows you to recharge,  bills, book travel, and access city services — all in one secure platform.",
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
   },
   {
     question: "Is CellPe safe to use?",
@@ -25,7 +29,11 @@ const faqs = [
   {
     question: "Does CellPe support all operators?",
     answer:
+<<<<<<< HEAD
       "Yes, CellPe supports all major mobile operators, DTH providers, and city services.",
+=======
+      "Yes, CellPe supports all major mobile operators, DTH providers, utility billers registered under BBPS, and city services.",
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
   },
 ];
 

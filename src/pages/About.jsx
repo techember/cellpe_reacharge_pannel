@@ -11,7 +11,11 @@ export default function About() {
     {
       icon: Zap,
       title: "Lightning Fast",
+<<<<<<< HEAD
       desc: "Recharges and payments happen instantly — no delays.",
+=======
+      desc: "Recharges and ments happen instantly — no delays.",
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
     },
     {
       icon: Users,
@@ -42,11 +46,19 @@ export default function About() {
           </h1>
           <p className="text-gray-900 text-lg md:text-xl leading-relaxed">
             CellPe is your all-in-one digital ment app for{" "}
+<<<<<<< HEAD
             <strong>mobile recharge,travel bookings, and city services</strong>.
             One app, <strong>all solutions</strong> — fast, secure, and rewarding.
           </p>
           <p className="text-gray-900 text-lg md:text-xl leading-relaxed">
             Enjoy instant transactions, cashback rewards, and 24/7 support, making payments
+=======
+            <strong>mobile recharge, bill ments, travel bookings, and city services</strong>.
+            One app, <strong>all solutions</strong> — fast, secure, and rewarding.
+          </p>
+          <p className="text-gray-900 text-lg md:text-xl leading-relaxed">
+            Enjoy instant transactions, cashback rewards, and 24/7 support, making ments
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
             effortless and reliable wherever you are.
           </p>
         </div>
@@ -74,7 +86,11 @@ export default function About() {
         </h2>
         <p className="text-gray-900 text-center max-w-3xl mx-auto mb-12 text-lg">
           CellPe combines <strong>all essential services</strong> in a single, smooth app.
+<<<<<<< HEAD
           With <strong>bank-grade security, instant payments, and rewards</strong>, you can
+=======
+          With <strong>bank-grade security, instant ments, and rewards</strong>, you can
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
           manage everything without switching apps.
         </p>
 
@@ -114,7 +130,11 @@ export default function About() {
         <div className="max-w-5xl mx-auto px-6 text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Vision</h2>
           <p className="text-lg md:text-xl leading-relaxed">
+<<<<<<< HEAD
             At CellPe, we believe digital payments should be{" "}
+=======
+            At CellPe, we believe digital ments should be{" "}
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
             <strong>simple, reliable, and rewarding</strong>. Our vision is to empower every
             user with a <strong>single app for all essential ments</strong>, making finance
             smarter and accessible for everyone.

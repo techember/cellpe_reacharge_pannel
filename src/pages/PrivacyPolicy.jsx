@@ -37,7 +37,11 @@ export default function PrivacyPolicy() {
             <ul className="list-disc list-inside text-gray-700 space-y-1">
               <li>Cookies — files on your device containing a unique ID</li>
               <li>Log files — track site activity, IP, browser type, and timestamps</li>
+<<<<<<< HEAD
               <li>Order information — name, billing/shipping address, payment info</li>
+=======
+              <li>Order information — name, billing/shipping address, ment info</li>
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
             </ul>
           </div>
 
@@ -46,7 +50,11 @@ export default function PrivacyPolicy() {
               How we use your information:
             </h2>
             <p className="text-gray-700">
+<<<<<<< HEAD
               To fulfill orders, handle payments, setup shipments, and send order confirmations.
+=======
+              To fulfill orders, handle ments, setup shipments, and send order confirmations.
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
               We also use this data to contact you, check for fraud, and send relevant offers.
             </p>
           </div>

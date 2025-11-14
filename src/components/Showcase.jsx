@@ -29,8 +29,13 @@ export default function Showcase() {
             Everything You Need in One App
           </h2>
           <p className="text-gray-600 mb-6 text-lg">
+<<<<<<< HEAD
             From mobile recharge, DTH, travel bookings, to city service providers — CellPe is your
             all-in-one solution for seamless and secure digital payments.
+=======
+            From mobile recharge, DTH, BBPS bill ments, travel bookings, to city service providers — CellPe is your
+            all-in-one solution for seamless and secure digital ments.
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
           </p>
           <Link
             to="/about"

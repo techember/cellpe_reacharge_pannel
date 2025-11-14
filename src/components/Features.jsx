@@ -2,7 +2,11 @@ import { Gift, Headphones, Shield, Zap } from "lucide-react";
 
 const features = [
   { icon: Shield, title: "Secure payments", desc: "Your transactions are protected with bank-grade encryption." },
+<<<<<<< HEAD
   { icon: Zap, title: "Lightning Fast", desc: "Instant recharges, bookings,  in seconds." },
+=======
+  { icon: Zap, title: "Lightning Fast", desc: "Instant recharges, bookings, and bill ments in seconds." },
+>>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
   { icon: Headphones, title: "24/7 Support", desc: "Always here to help, whenever you need assistance." },
   { icon: Gift, title: "Exclusive Rewards", desc: "Earn cashback, discounts, and exciting offers on every ment." },
 ];
