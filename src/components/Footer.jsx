@@ -19,11 +19,7 @@ export default function Footer() {
             </h2>
             <p className="font-medium">
               Our user-friendly interface allows you to easily recharge your
-<<<<<<< HEAD
               mobile phones, book travel, and access city services — 
-=======
-              mobile phones, pay bills, book travel, and access city services — 
->>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
               all from one secure app.
             </p>
           </div>
