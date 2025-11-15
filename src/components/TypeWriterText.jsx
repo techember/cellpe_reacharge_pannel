@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function TypewriterText({
   text = "",
   speed = 40,
-  className = ""
+  className = "",
 }) {
   const [displayText, setDisplayText] = useState("");
 
@@ -30,4 +30,3 @@ export default function TypewriterText({
     </motion.h1>
   );
 }
- 
