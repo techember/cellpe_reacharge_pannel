@@ -41,7 +41,7 @@ export default function About() {
             <span className="bg-gradient-to-br from-[#8FCF9C] via-[#73C6D6] to-[#2196F3] bg-clip-text text-transparent">CELLPE</span>
           </h1>
           <p className="text-gray-900 text-lg md:text-xl leading-relaxed">
-            CellPe is your all-in-one digital ment app for{" "}
+            CellPe is your all-in-one digital payment app for{" "}
             <strong>mobile recharge,travel bookings, and city services</strong>.
             One app, <strong>all solutions</strong> — fast, secure, and rewarding.
           </p>

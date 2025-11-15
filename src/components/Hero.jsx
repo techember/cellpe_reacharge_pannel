@@ -33,11 +33,7 @@ export default function Hero() {
             <span className="text-sky-900 drop-shadow-md">CellPe</span>
           </h1>
           <p className="text-lg text-gray-700 mb-6">
-<<<<<<< HEAD
             Recharge, book, instantly with India’s most convenient & secure payment app.
-=======
-            Recharge, book, and pay bills instantly with India’s most convenient & secure payment app.
->>>>>>> 273c6f90f816aebe3980ab28d79ebb5be48a57c8
           </p>
           <div className="space-x-4">
             <button className="px-6 py-3 rounded-full bg-sky-600 text-white font-semibold shadow-lg hover:bg-sky-700 transition duration-300">
