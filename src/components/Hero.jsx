@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import TypewriterText from "@/components/TypeWriterText";
+import TypewriterText from "./TypeWriterText";
 
 export default function Hero() {
   const phoneScreens = [
