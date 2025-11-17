@@ -29,7 +29,7 @@ export default function Showcase() {
             Everything You Need in One App
           </h2>
           <p className="text-gray-600 mb-6 text-lg">
-            From mobile recharge, DTH, travel bookings, to city service providers — CellPe is your
+            From mobile recharge, DTH, travel bookings — CellPe is your
             all-in-one solution for seamless and secure digital payments.
           </p>
           <Link

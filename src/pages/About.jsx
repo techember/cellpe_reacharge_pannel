@@ -42,7 +42,7 @@ export default function About() {
           </h1>
           <p className="text-gray-900 text-lg md:text-xl leading-relaxed">
             CellPe is your all-in-one digital payment app for{" "}
-            <strong>mobile recharge,travel bookings, and city services</strong>.
+            <strong>mobile recharge,travel bookings,</strong>.
             One app, <strong>all solutions</strong> — fast, secure, and rewarding.
           </p>
           <p className="text-gray-900 text-lg md:text-xl leading-relaxed">

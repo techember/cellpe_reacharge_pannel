@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import TypewriterText from "./TypeWriterText";
 
 export default function Hero() {
   const phoneScreens = [
@@ -12,64 +11,61 @@ export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(
-      () => setCurrentIndex((prev) => (prev + 1) % phoneScreens.length),
-      3000
-    );
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % phoneScreens.length);
+    }, 3000);
+
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <section className="relative bg-gradient-to-br from-[#B9FBC0] via-[#A6E3E9] to-[#4FC3F7] text-sky-950 pt-12 pb-20 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-[#0A224A] via-[#0D2D64] to-[#00C853]/20 text-white pt-12 pb-20 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 relative z-10">
 
-        {/* Left Side Text */}
+        {/* Left Text Section */}
         <motion.div
           className="flex-1 text-center md:text-left"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {/* ⭐ TYPEWRITER HEADING */}
-          <TypewriterText
-            text="All Payments in One App: CellPe"
-            speed={50}
-            className="text-5xl md:text-6xl font-extrabold leading-tight mb-6"
-          />
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
+            Recharge Faster with  
+            <span className="text-[#00C853]"> CellPe</span>
+          </h1>
 
-          <p className="text-lg text-gray-700 mb-6">
-            Recharge, book, instantly with India’s most convenient & secure payment app.
+          <p className="mt-4 text-lg md:text-xl text-gray-200 max-w-lg">
+            Quick, safe and super-easy mobile recharges — powered by a modern and fast UI.
           </p>
 
-          <div className="space-x-4">
-            <button className="px-6 py-3 rounded-full bg-sky-600 text-white font-semibold shadow-lg hover:bg-sky-700 transition duration-300">
-              Get on Google Play
-            </button>
+          <div className="mt-6 flex justify-center md:justify-start space-x-4">
+            <a
+              href="#download"
+              className="bg-[#00C853] text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-[#00b846] transition"
+            >
+              Download App
+            </a>
+            <a
+              href="/about"
+              className="bg-white text-[#0A224A] font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-gray-200 transition"
+            >
+              Learn More
+            </a>
           </div>
         </motion.div>
 
-        {/* Right Side Phone Animation */}
-        <motion.div
-          className="flex-1 mt-8 md:mt-0 relative flex justify-center"
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <div className="relative w-[160px] md:w-[180px] lg:w-[250px] h-[360px] md:h-[400px] lg:h-[500px] rounded-3xl shadow-2xl overflow-hidden border-4 border-white bg-black">
-
-            <div className="absolute inset-0 bg-white/20 blur-3xl rounded-3xl"></div>
-
-            <motion.img
-              key={phoneScreens[currentIndex]}
-              src={phoneScreens[currentIndex]}
-              alt="App Screen"
-              className="absolute inset-0 w-full h-full object-cover"
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8 }}
-            />
-          </div>
-        </motion.div>
+        {/* Right – Auto-Changing Phone Screens */}
+        <div className="flex-1 flex justify-center mt-10 md:mt-0 relative">
+          <motion.img
+            key={currentIndex}
+            src={phoneScreens[currentIndex]}
+            alt="Phone Screen"
+            className="h-[480px] w-auto rounded-3xl shadow-2xl border border-white/20"
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          />
+        </div>
 
       </div>
     </section>

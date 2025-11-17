@@ -23,16 +23,16 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-gradient-to-r from-[#007BFF] to-[#0056D2] shadow-lg sticky top-0 z-50">
+    <nav className="bg-gradient-to-r from-[#0A224A] to-[#0D2D64] shadow-lg sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 h-16 flex justify-between items-center">
-        
+
         {/* Logo */}
         <div
           className="flex items-center space-x-2 cursor-pointer"
           onClick={() => navigate("/")}
         >
           <img
-            src="/cellpe.jpg"
+            src="/cellpe-logo.png"
             alt="CellPe Logo"
             className="h-12 object-contain rounded-full border-2 border-white"
           />
@@ -78,7 +78,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-gradient-to-r from-[#007BFF] to-[#0056D2] px-4 pb-4 space-y-2 shadow-md">
+        <div className="md:hidden bg-gradient-to-br from-[#0A224A] via-[#0D2D64] to-[#00C853]/20 px-4 pb-4 space-y-2 shadow-md">
           {links.map((link, i) =>
             link.to ? (
               <a
@@ -107,4 +107,3 @@ export default function Navbar() {
     </nav>
   );
 }
- 

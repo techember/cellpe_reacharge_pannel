@@ -5,35 +5,35 @@ export default function Footer() {
   return (
     <footer>
       {/* Top Divider */}
-      <div className="bg-gradient-to-r from-[#007BFF] to-[#0056D2] text-white py-0.5"></div>
+      <div className="bg-gradient-to-r from-[#0A224A] to-[#0D2D64] py-0.5"></div>
 
       {/* Main Footer Content */}
-      <div className="bg-[#E3F2FD] text-gray-700 py-10 text-center text-sm border-t border-blue-200">
+      <div className="bg-[#F3F7FF] text-gray-700 py-12 text-sm border-t border-blue-200">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-left">
-          
+
           {/* About Section */}
           <div>
-            <h2 className="text-2xl font-bold text-[#0056D2] mb-4">
-              <span className="text-[#0056D2]">Cell</span>
-              <span className="text-[#00C853]">Pe</span> - Recharge App
+            <h2 className="text-2xl font-bold text-[#0A224A] mb-4">
+              <span className="text-[#0A224A]">Cell</span>
+              <span className="text-[#00C853]">Pe</span> – Recharge App
             </h2>
-            <p className="font-medium">
-              Our user-friendly interface allows you to easily recharge your
-              mobile phones, book travel, and access city services — 
-              all from one secure app.
+            <p className="font-medium leading-relaxed">
+              Experience fast, secure and reliable mobile recharges,
+              bill payments, travel booking and everyday city services
+              — all in one smart app built for convenience.
             </p>
           </div>
 
           {/* Important Links */}
           <div>
-            <h2 className="text-2xl font-bold text-[#0056D2] mb-4">
+            <h2 className="text-2xl font-bold text-[#0A224A] mb-4">
               Important Links
             </h2>
             <ul className="space-y-2 font-medium">
               <li>
                 <Link
                   to="/privacy-policy"
-                  className="hover:text-[#007BFF] transition-colors"
+                  className="hover:text-[#00C853] transition-colors"
                 >
                   Privacy Policy
                 </Link>
@@ -41,7 +41,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/terms"
-                  className="hover:text-[#007BFF] transition-colors"
+                  className="hover:text-[#00C853] transition-colors"
                 >
                   Terms & Conditions
                 </Link>
@@ -49,7 +49,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/refund-policy"
-                  className="hover:text-[#007BFF] transition-colors"
+                  className="hover:text-[#00C853] transition-colors"
                 >
                   Refund Policy
                 </Link>
@@ -59,20 +59,20 @@ export default function Footer() {
 
           {/* Contact Details */}
           <div>
-            <h2 className="text-2xl font-bold text-[#0056D2] mb-4">
+            <h2 className="text-2xl font-bold text-[#0A224A] mb-4">
               Contact Details
             </h2>
             <div className="space-y-2 font-medium">
               <div className="flex items-center justify-center md:justify-start space-x-2">
-                <MapPin className="w-5 h-5 text-[#0056D2]" />
-                <span>New Delhi</span>
+                <MapPin className="w-5 h-5 text-[#00C853]" />
+                <span>New Delhi, India</span>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-2">
-                <Mail className="w-5 h-5 text-[#0056D2]" />
+                <Mail className="w-5 h-5 text-[#00C853]" />
                 <span>offcialcellpe@gmail.com</span>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-2">
-                <Phone className="w-5 h-5 text-[#0056D2]" />
+                <Phone className="w-5 h-5 text-[#00C853]" />
                 <span>+91 7042924765</span>
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="bg-gradient-to-r from-[#007BFF] to-[#0056D2] text-white py-4 text-center text-sm shadow-inner">
+      <div className="bg-gradient-to-r from-[#0A224A] to-[#0D2D64] text-white py-4 text-center text-sm shadow-inner">
         <p>
           © {new Date().getFullYear()}{" "}
           <span className="font-bold">
