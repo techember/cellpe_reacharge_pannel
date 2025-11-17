@@ -19,7 +19,7 @@ export default function Footer() {
             </h2>
             <p className="font-medium leading-relaxed">
               Experience fast, secure and reliable mobile recharges,
-              bill payments, travel booking and everyday city services
+              payments, travel booking and everyday city services
               — all in one smart app built for convenience.
             </p>
           </div>
