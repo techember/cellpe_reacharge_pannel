@@ -34,7 +34,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="bg-gradient-to-br from-[#B9FBC0]/30 via-[#A6E3E9]/30 to-[#4FC3F7]/30 py-24">
+    <section id="contact" className="bg-gradient-to-br from-[#B9FBC0]/30 via-[#A6E3E9]/30 to-[#4FC3F7]/30 py-24">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
